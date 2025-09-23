@@ -10,6 +10,7 @@
         <version>3.2.5</version> <!-- use latest stable Spring Boot -->
         <relativePath/>
     </parent>
+	<packaging>war</packaging>
 
     <groupId>com.talkpay</groupId>
     <artifactId>talkpay-2</artifactId>
@@ -113,9 +114,6 @@
 		    <version>8.0.33</version>
 		    <scope>runtime</scope>
 		</dependency>
-
-
-
 
     </dependencies>
 
