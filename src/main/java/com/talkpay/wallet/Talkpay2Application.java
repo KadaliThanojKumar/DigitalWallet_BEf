@@ -39,10 +39,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
 @SpringBootApplication
 public class Talkpay2Application extends SpringBootServletInitializer {
-
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(Talkpay2Application.class);
@@ -52,3 +50,5 @@ public class Talkpay2Application extends SpringBootServletInitializer {
         SpringApplication.run(Talkpay2Application.class, args);
     }
 }
+
+
